@@ -28,10 +28,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "ProyectoIntegradorFinal_MDC/node_modules/bootstrap/dist/css/bootstrap.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "ProyectoIntegradorFinal_MDC/node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
