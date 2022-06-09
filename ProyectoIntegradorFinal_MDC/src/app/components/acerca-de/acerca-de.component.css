@@ -16,6 +16,18 @@ div{
         top: 380px;
     }
 }
+@media (max-width: 575px){
+        #fotodeperfil{
+            position: absolute;
+            width: 30%;
+            border-radius: 8%;
+            box-shadow: 3px 3px 3px gray;
+            left: 35%;
+            top: 200px;
+        }
+    
+}
+
 /*Etiqueta nombre*/
 #nombre{
     font-weight: bold;
