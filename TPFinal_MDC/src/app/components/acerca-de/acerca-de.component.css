@@ -6,6 +6,27 @@ div{
 background-color:#050505;
 text-align: center;
 }
+
+/*Color de texto parrafo*/
 p{
 color:#b763d1
+}
+
+/*Estilo de la foto de perfil*/
+@media(min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px gray;
+        left: 2%;
+        top: 600px;
+    }
+}
+
+/*Etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    
 }
