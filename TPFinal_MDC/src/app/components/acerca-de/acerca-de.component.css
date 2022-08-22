@@ -5,6 +5,7 @@
 div{
 background-color:#050505;
 text-align: center;
+--bs-gutter-x: 0rem;
 }
 
 /*Color de texto parrafo*/
@@ -23,7 +24,16 @@ color:#b763d1
         top: 600px;
     }
 }
-
+@media(max-width: 575px){
+    #fotodeperfil{
+        position: center;
+        width: 100%;
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px gray;
+        left: 1%;
+        top: 600px;
+    }
+}
 /*Etiqueta nombre*/
 #nombre{
     font-weight: bold;
