@@ -3,7 +3,7 @@
    
 }
 div{
-background-color:#050505;
+background-color:#ffffff;
 text-align: center;
 --bs-gutter-x: 0rem;
 }
@@ -11,6 +11,11 @@ text-align: center;
 /*Color de texto parrafo*/
 p{
 color:#b763d1
+}
+h1, h3{
+    display: inline;
+    color:#a063d1;
+    text-shadow: 2px 0 2px #242627;    
 }
 
 /*Estilo de la foto de perfil*/
@@ -25,8 +30,7 @@ color:#b763d1
     }
 }
 @media(max-width: 575px){
-    #fotodeperfil{
-        
+    #fotodeperfil{        
         position: absolute;
         width: 30%;
         border-radius: 10%;
