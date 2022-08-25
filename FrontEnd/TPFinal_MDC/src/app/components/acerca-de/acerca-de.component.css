@@ -1,44 +1,48 @@
-.row{
-    padding: 20px;   
+.row {
+    padding: 20px;
 }
-div{
-background-color:#ffffff;
-text-align: initial;
+
+div {
+    background-color: #ffffff;
+    text-align: initial;
 
 }
 
 /*Color de texto parrafo*/
-p{
-color:#a063d1;
+p {
+    color: #a063d1;
 }
-h1, h3{
-    
+
+h1,
+h3 {
+
     display: inline;
-    color:#a063d1;
-    text-shadow: 2px 0 2px #242627;    
+    color: #a063d1;
+    text-shadow: 2px 0 2px #242627;
 }
 
 /*Estilo de la foto de perfil*/
-#foto{
+.foto {
     border-radius: 10%;
     box-shadow: 3px 3px 3px #561b77;
-    margin-top: -200px;
+    
 }
 
-@media(min-width: 576px){
-    #fotodeperfil{
-        position: absolute;
-        width: 15%;
-        border-radius: 10%;
+@media(min-width: 576px) {
+    .fotodeperfil {
+       position: absolute;
+        width: 30%;
+        
         box-shadow: 3px 3px 3px #561b77;
         left: 2%;
         top: 450px;
     }
 }
-@media(max-width: 575px){
-    #fotodeperfil{        
+
+@media(max-width: 575px) {
+    .fotodeperfil {
         position: absolute;
-        width: 30%;
+        width: 30%px;
         border-radius: 10%;
         box-shadow: 3px 3px 3px #7c7b7b;
         left: 33%;
@@ -47,9 +51,10 @@ h1, h3{
         display: block;
     }
 }
+
 /*Etiqueta nombre*/
-#nombre{
+#nombre {
     font-weight: bold;
     margin-top: 30%;
-    
+
 }
