@@ -11,5 +11,6 @@ div{
 h1, h3{
     display: inline;
     color:#a063d1;
-    text-shadow: 2px 0 2px #242627;
+    /*text-shadow: 2px 0 2px #242627;*/
+   margin-bottom: 2rem;
 }

@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+}
+
+h1 {
+    display: inline;
+    color: #a063d1;
+    text-shadow: 2px 0 2px #242627;
+    text-align: center;
+    margin-left: 20px;
+}

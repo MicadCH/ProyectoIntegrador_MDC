@@ -12,7 +12,7 @@ div {
     margin-top: -300px;
     border-radius: 10%;
     box-shadow: 3px 3px 3px #561b77;
-    margin-left: 20px;
+    
 }
 
 @media(min-width:768px) {
@@ -24,12 +24,15 @@ div {
 .datos{
      font-size: 30px;
      margin: 10px auto 40px;
+     color: #202020;
 }
 
-p {
+.texto p { 
     /*COLOR DE TEXTO*/
     color: #202020;
     margin: 0 20px;
+    text-align: justify;
+    margin-top: 1rem;
 }
 
 
