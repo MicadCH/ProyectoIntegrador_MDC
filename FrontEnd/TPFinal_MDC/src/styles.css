@@ -1,9 +1,8 @@
 * {
     margin: 0;
-   
 }
 
-body{
+body {
     background-color: #4a1d6d;
 }
 
@@ -16,7 +15,6 @@ h1 {
 }
 
 h3 {
-
     display: inline;
     color: #c193e7;
     text-shadow: 2px 0 2px #242627;
