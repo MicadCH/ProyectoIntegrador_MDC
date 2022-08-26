@@ -10,7 +10,7 @@
 
 .contenedor2 {
     width: auto;
-
+    
 }
 
 
@@ -30,15 +30,13 @@
 
 }
 
-h1 {
-    display: inline;
-    color: #a063d1;
-    text-shadow: 2px 0 2px #242627;
-
+p{
+    margin-top: 2rem
 }
 
 h2,
 h3 {
+   
     display: inline;
     color: #c193e7;
     text-shadow: 2px 0 2px #242627;

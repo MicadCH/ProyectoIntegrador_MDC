@@ -2,9 +2,7 @@ div {
     text-align: center;
 }
 
-.perfil {
-    
-}
+.perfil {}
 
 .foto {
     /*Clase de la foto de perfil*/
@@ -12,22 +10,31 @@ div {
     margin-top: -300px;
     border-radius: 10%;
     box-shadow: 3px 3px 3px #561b77;
-    
+
 }
 
 @media(min-width:768px) {
     .perfil {
         display: flex;
     }
+
+    .foto {
+        margin-left: 1.5rem;
+    }
+
+    .datos {
+        text-align: left;
+        margin-left: 1.5rem !important;
+    }
 }
 
-.datos{
-     font-size: 30px;
-     margin: 10px auto 40px;
-     color: #202020;
+.datos {
+    font-size: 30px;
+    margin: 10px auto 40px;
+    color: #202020;
 }
 
-.texto p { 
+.texto p {
     /*COLOR DE TEXTO*/
     color: #202020;
     margin: 0 20px;
@@ -46,45 +53,3 @@ h3 {
     text-align: initial;
     margin-left: 20px;
 }
-
-
-
-
-/*.row {
-    padding: 20px;
-}
-
-div {
-    background-color: #ffffff;
-    text-align: initial;
-}
-
-@media(min-width: 576px) {
-    .foto{
-       position: absolute;
-        width: 30%;
-        box-shadow: 3px 3px 3px #561b77;
-        left: 2%;
-        top: 450px;
-    }
-}
-
-@media(max-width: 575px) {
-    .fotodeperfil {
-        position: absolute;
-        width: 30%px;
-        border-radius: 10%;
-        box-shadow: 3px 3px 3px #7c7b7b;
-        left: 33%;
-        top: 600px;
-        margin: 0 auto;
-        display: block;
-    }
-}
-
-
-#nombre {
-    font-weight: bold;
-    margin-top: 30%;
-}
-*/
