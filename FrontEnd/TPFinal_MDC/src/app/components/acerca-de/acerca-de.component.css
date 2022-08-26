@@ -23,13 +23,13 @@ div {
 
 .datos{
      font-size: 30px;
+     margin: 10px auto 40px;
 }
 
 p {
     /*COLOR DE TEXTO*/
-    color: #a063d1;
-    margin-left: 20px;
-   
+    color: #202020;
+    margin: 0 20px;
 }
 
 
