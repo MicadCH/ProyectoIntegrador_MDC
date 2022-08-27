@@ -7,7 +7,7 @@
 #logoAP {
     width: 150px;
     margin-top: -4px;
-    margin-left: 10px;
+    margin-left: 0.8rem;
 }
 
 img {
@@ -17,6 +17,7 @@ img {
 
 #ingresar {
     width: 80px;
+    margin-right: 0.8rem;
 }
 
 .boton{
