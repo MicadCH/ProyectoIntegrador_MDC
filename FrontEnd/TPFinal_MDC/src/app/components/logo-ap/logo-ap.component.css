@@ -1,5 +1,39 @@
-#logoAP{
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#logoAP {
     width: 150px;
     margin-top: -4px;
-margin-left: 10px;
+    margin-left: 10px;
+}
+
+img {
+    width: 60px;
+    margin: 0.3rem;
+}
+
+#ingresar {
+    width: 80px;
+}
+
+.boton{
+    display: contents;
+    display: contents; 
+}
+
+/*-----Para vista de celular----*/
+@media(max-width: 768px){
+.container{
+    flex-direction: column;
+}
+.redes{
+   margin-bottom: 0.5rem;
+    flex-direction: initial;
+    text-align: center;
+    align-items: center;
+    
+}
 }
